@@ -1,0 +1,17 @@
+h1, p{
+    text-align: center;
+}
+
+
+/* 1:The first and most useful pseudo class is "hover" */
+.button{
+    padding: 8px;
+    border-radius: 10px 18px 10px 18px;
+    border: 0px;
+    font-weight: 800;
+}
+
+.button:hover{
+    background-color: goldenrod;
+    transition: ease 0.8s;
+}
