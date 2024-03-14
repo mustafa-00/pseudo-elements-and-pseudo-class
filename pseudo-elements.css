@@ -22,14 +22,28 @@ ol li::marker{
 }
 
 
-.selection .one::selection{
+.selection .selection-one::selection{
     color: red;
 }
 
-.selection .tow::selection{
+.selection .selection-tow::selection{
     background-color: gold;
 }
 
-.selection .three::selection{
+.selection .selection-three::selection{
     text-shadow: 1px 1px 0 royalblue; 
 }
+
+
+.befor-after-one::before{
+    content: 'cat';
+    color: red;
+    font-weight: 900;
+}
+
+.befor-after-tow::after{
+    content: 'dog';
+    color: red;
+    font-weight: 900;
+}
+
