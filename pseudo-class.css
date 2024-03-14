@@ -35,8 +35,11 @@ h1, .subtitle{
 }
 
 /* 3:Third pseudo class that you could use is ":active" */
+.active-link{
+    position: relative;
+}
 .active-link:active{
-    top: 2px;
+    top: 3px;
 }
 
 /* 4:Another pseudo class selector is the "first-child" and "last-child" */
