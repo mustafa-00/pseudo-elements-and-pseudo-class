@@ -1,0 +1,9 @@
+ul li::marker{
+    color: red;
+    font-weight: 900;
+}
+
+ol li::marker{
+    color:deepskyblue;
+    font-weight: 700;
+}
