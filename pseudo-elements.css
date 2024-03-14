@@ -7,3 +7,26 @@ ol li::marker{
     color:deepskyblue;
     font-weight: 700;
 }
+
+.first_letter::first-letter{
+    color: red;
+    font-weight: bold;
+}
+
+.first_line::first-line{
+    color: blue;
+    font-weight: bold;
+}
+
+
+.selection .one::selection{
+    color: red;
+}
+
+.selection .tow::selection{
+    background-color: gold;
+}
+
+.selection .three::selection{
+    text-shadow: 1px 1px 0 royalblue; 
+}
